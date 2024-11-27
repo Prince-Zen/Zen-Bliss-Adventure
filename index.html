@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Zen Bliss Adventure</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .logo {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/38e2de0e4d.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="main">
+            <div class="navbar">
+                <div class="icon">
+                    <h2 class="logo">
+                     <img src="zen.png" alt="Zen Bliss Adventure" height="100" width="100">
+                    </h2>
+                    <div class="menu">
+                        <nav role="navigation" aria-label="Main Navigation">
+                            <ul>
+                                <li><a href="#main">HOME</a></li>
+                                <li><a href="#About">SERVICE</a></li>
+                                <li><a href="#Team">TEAM</a></li>
+                                <li><a href="#offer">ABOUT</a></li>
+                                <li><a href="#contact">CONTACT</a></li>
+                                <i class="fa-solid fa-xmark"></i>
+                            </ul>
+                            <i class="fa-solid fa-bars"></i>
+                        </nav>
+                        <div class="header-text">
+                            <p>ZEN BLISS ADVENTURE</p>
+                            <h1>Explore with <span>mindfulness</span> and <span>tranquility</span></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ---------services---------- -->
+        <div id="About">
+            <div class="container">
+                <div class="row">
+                    <div class="About-col-1">
+                        <img src="eleph.png" height="300" width="400">
+                    </div>
+                    <div class="About-col-2">
+                   <h1 class="sub-title">What to expect</h1> 
+                      <p>wondered how you can access all information related to your tour?, welcome to the right place at the right time. We are <span>Zen Bliss Adventure</span>,Explore with mindfulness and tranquility.</p>
+                      <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Lodging')">Lodging</p>
+                        <p class="tab-links" onclick="opentab('Tour Plan')">Tour Plan</p>
+                        <p class="tab-links" onclick="opentab('Transport')">Transport</p>
+                        <p class="tab-links" onclick="opentab('Culture Experience')">Culture Experience</p>
+                        <p class="tab-links" onclick="opentab('Budgeting')">Budgeting</p>
+                      </div>
+                      <div class="tab-contents active-tab" id="Lodging">
+                        <ul>
+                            <li><span>HOTEL</span><br>Luxury and elegant accommodation</li>
+                            <li><span>MOTEL</span><br>Luxury accommodation</li>
+                            <li><span>GUEST-HOUSE</span><br>Feel at home experience</li>
+                            <li><span>TENTING</span><br>Wild life lively lodging</li>
+                        </ul>
+                    </div>          <div class="tab-contents" id="Tour Plan">
+                        <ul>
+                            <li><span>PLACES TO VISIT</span><br>Different parts of the country</li>
+                            <li><span>TOUR GUIDE</span><br>Get an assigned person</li>
+                            <li><span>BOOK A TOUR</span><br>Select one multiple tour places to be arranged</li>
+                        </ul>
+                    </div>          <div class="tab-contents" id="Transport">
+                        <ul>
+                            <li><span>BOOKING</span><br>Choose the right vehicle</li>
+                            <li><span>DRIVER</span><br>Get a personalised drive(know who is responsible for your ride)</li>
+                        </ul>
+                    </div>          <div class="tab-contents" id="Culture Experience">
+                        <ul>
+                            <li><span>ROYAL PALACE</span><br>Visiting Rwandan royal palace</li>
+                            <li><span>TRADITIONAL LIFE</span><br>Know all traditional daily activities</li>
+                            <li><span>TRADITIONAL ENTERTAINMENT</span><br>Experience a pleasure in their lifestyle </li>
+                        </ul>
+                    </div>          <div class="tab-contents" id="Budgeting">
+                        <ul>
+                            <li><span>TOUR FINANCE</span><br>Financial calculations</li>
+                            <li><span>BUDGET PROVISSION</span><br>Allocating and providing proper tour budget</li>
+                            <li><span>BUDGET ADJUSTING</span><br>Aligning budget to the equivalent tour experience</li>
+                        </ul>
+                    </div>                    
+                    </div>
+            </div>
+        </div>
+         <!-- ---------About---------- -->
+          <div id="offer">
+            <div class="container">
+                <h1 class="sub-title">Who are we</h1> 
+                <div class="Company-discription">
+                    <div>
+                        <i class="fa-sharp fa-solid fa-crosshairs"></i>
+                        <h2>AIM</h2>
+                        <p>Aiming at making tourism more fun and enjoyable by providing <br>one stop center for all services needed by tourists at a budget friendly price</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-plane-departure"></i>
+                        <h2>Simplified planning</h2>
+                        <p>A user friendly platform to easily create customized itineraries</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-duotone fa-solid fa-check"></i>
+                        <h2>All in one booking</h2>
+                        <p>Book accommodation, transport and guided tours in one place.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-comments"></i>
+                        <h2>Expert guidance</h2>
+                        <p>Access to knowledgeable local guides for personalized experience</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-duotone fa-solid fa-earth-americas"></i>
+                        <h2>Stress free travel</h2>
+                        <p>Eliminate the hassle of coordinating multiple services</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+                
+            </div>
+          </div>
+          <!-- -----------Team----------- -->
+           <div id="Team">
+            <div class="container">
+                <h1 class="sub-title">The Team Behind</h1> 
+                <div class="TEAM">
+                    <div class="CEO">
+                        <img src="prince.png">
+                        <div class="layer">
+                            <h3>Cheif Executive Officer</h3>
+                            <p>Founder and CEO of Zen Bliss Adventure who holds 5 years of experience in training and administration functions and currently he is into business management</p>
+                            <a href="https://www.linkedin.com/in/uwacu-prince-320137203/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div> 
+                    <div class="CTO">
+                        <img src="scott.png">
+                        <div class="layer">
+                            <h3>Cheif Technology Officer</h3>
+                            <p>Co-founder of Zen Bliss Adventure he is a full stack engineer especialy performs as a web developer and maintainer he is skilled in web-ops, system administration, AI tools usage and many more...</p>
+                            <a href="https://www.linkedin.com/in/kgl-code-scott/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div> 
+                    <div class="CMO">
+                        <img src="pity.png" height="400">
+                        <div class="layer">
+                            <h3>Cheif Marketing Officer</h3>
+                            <p>Co-founder of Zen Bliss Adventure he is a graphic designer, content creator, social media handler he performs related tasks along with video production and photoshoot aswell</p>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+           </div>
+           <!--contact-->
+           <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Reach us</h1>
+                        <p><i class="fa-sharp fa-solid fa-paper-plane"></i> info.zentours@gmail.com</p>
+                        <p><i class="fa-duotone fa-solid fa-phone"></i>+250790262380</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/uwacu-prince-320137203/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://web.facebook.com/uwacu.prince.5/"><i class="fa-brands fa-facebook"></i></a>
+                        </div>
+                        <a href=""></a>
+                    </div> 
+                    <div class="contact-right">
+                        <form id="contactForm" name="submit-to-google-sheet">
+                            <input type="text" name="name" placeholder="Your name" required>
+                            <input type="email" name="email" placeholder="Your email" required>
+                            <textarea name="message" rows="6" placeholder="Your message" required></textarea>
+                            <button type="submit" class="btn">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">copyright ©Prince.Tour advisor <i class="fa-solid fa-heart"></i>Zen Bliss Adventure</div>
+           </div>
+        <script>
+            function opentab(tabname) {
+                // Get all tab links and tab contents
+                var tablinks = document.getElementsByClassName("tab-links");
+                var tabcontents = document.getElementsByClassName("tab-contents");
+        
+                // Remove active class from all tab links
+                for (var tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+        
+                // Remove active class from all tab contents
+                for (var tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+        
+                // Add the active class to the clicked tab link
+                var activeTabLink = document.querySelector(`[onclick="opentab('${tabname}')"]`);
+                if (activeTabLink) {
+                    activeTabLink.classList.add("active-link");
+                }
+        
+                // Show the corresponding tab content
+                var activeTabContent = document.getElementById(tabname);
+                if (activeTabContent) {
+                    activeTabContent.classList.add("active-tab");
+                }
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycby0xD4HAVAazAWsC0kHAjH-M1CtjaJyyU8p5h_kc_4jwYGRmKUEo6iS_7bQ8xDr8DtA1A/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+            e.preventDefault(); // Prevent the default form submission
+
+            // Start the fetch request
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    // Display success message immediately
+                    msg.innerHTML = "Message sent successfully";
+
+                    // Reset the form immediately
+                    form.reset();
+
+                    // Set a timeout to clear the message after 2 seconds
+                    setTimeout(() => {
+                        msg.innerHTML = ""; // Clear the success message after delay
+                    }, 2000);
+                })
+                .catch(error => {
+                    // Handle error (optional: display error message to user)
+                    console.error('Error!', error.message);
+                });
+        });
+    </script>
+
+    </body>
+</html>
